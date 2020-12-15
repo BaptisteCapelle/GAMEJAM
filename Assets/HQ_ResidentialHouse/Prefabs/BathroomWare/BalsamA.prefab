@@ -102,7 +102,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4000011829309850}
-  - component: {fileID: 205000012150183164}
   - component: {fileID: 1749090496864499851}
   m_Layer: 0
   m_Name: BalsamA
@@ -126,29 +125,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!205 &205000012150183164
-LODGroup:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1000013759180092}
-  serializedVersion: 2
-  m_LocalReferencePoint: {x: 0, y: 0.08, z: 0.0000000037252903}
-  m_Size: 0.16
-  m_FadeMode: 0
-  m_AnimateCrossFading: 0
-  m_LastLODIsBillboard: 0
-  m_LODs:
-  - screenRelativeHeight: 0.100456506
-    fadeTransitionWidth: 0
-    renderers:
-    - renderer: {fileID: 23000012072412478}
-  - screenRelativeHeight: 0.03758627
-    fadeTransitionWidth: 0
-    renderers:
-    - renderer: {fileID: 0}
-  m_Enabled: 1
 --- !u!54 &1749090496864499851
 Rigidbody:
   m_ObjectHideFlags: 0
