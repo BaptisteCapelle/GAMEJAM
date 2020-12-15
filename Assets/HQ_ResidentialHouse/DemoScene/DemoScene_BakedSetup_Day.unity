@@ -10648,7 +10648,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd15eed566d88bb4fa3877390999b715, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  miaulement: {fileID: 8300000, guid: f2df9e1e4bc4fa3479f0bdcd6dd5c837, type: 3}
+  miaulement: {fileID: 8300000, guid: ad1a365398900ec408afde17f47c3fd1, type: 3}
+--- !u!114 &584855311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 584855305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28dd9bc557880d841a9c6a6f075f8ba9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mia: {fileID: 8300000, guid: 0028211fbd5f0814a841930755bb2694, type: 3}
 --- !u!1001 &586708507
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31510,9 +31523,17 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 11459120, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
+      propertyPath: movementSettings.ForwardSpeed
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 13600000, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
       propertyPath: m_Height
       value: 0.64
+      objectReference: {fileID: 0}
+    - target: {fileID: 13600000, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
+      propertyPath: m_Radius
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 1310347339611115808, guid: c6453f8e1f814744d8b94e5a6d1f9942,
         type: 3}
