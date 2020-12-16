@@ -9,11 +9,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4000010175998442}
-  - component: {fileID: 205000010453096890}
   - component: {fileID: 7738257444956717436}
   m_Layer: 0
   m_Name: ToothPasteB
-  m_TagString: Untagged
+  m_TagString: Finish
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33,29 +32,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!205 &205000010453096890
-LODGroup:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1000010675004140}
-  serializedVersion: 2
-  m_LocalReferencePoint: {x: 0.000000014901161, y: 0.088481456, z: 0.0000000037252903}
-  m_Size: 0.17696291
-  m_FadeMode: 0
-  m_AnimateCrossFading: 0
-  m_LastLODIsBillboard: 0
-  m_LODs:
-  - screenRelativeHeight: 0.16749083
-    fadeTransitionWidth: 0
-    renderers:
-    - renderer: {fileID: 23000010952480196}
-  - screenRelativeHeight: 0.01
-    fadeTransitionWidth: 0
-    renderers:
-    - renderer: {fileID: 0}
-  m_Enabled: 1
 --- !u!54 &7738257444956717436
 Rigidbody:
   m_ObjectHideFlags: 0
