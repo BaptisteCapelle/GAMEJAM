@@ -866,7 +866,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4623697754078197664}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.107, y: -0.16082954, z: -1.134}
+  m_LocalPosition: {x: 0.107, y: -0.16082954, z: -1.387}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 400000}
@@ -900,11 +900,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4c2c1df97be9f44cbc2ea380a165469, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  radius: 1
+  radius: 0.6
   distance: 0.1
   targetTag: Finish
   power: 750
-  radiusExplosion: 0.5
+  radiusExplosion: 0.2
 --- !u!114 &2932809951099785237
 MonoBehaviour:
   m_ObjectHideFlags: 0
