@@ -19,7 +19,7 @@ public class taper : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             //(Vector3 origin, float radius, Vector3 direction, out RaycastHit hitInfo, float maxDistance = Mathf.Infinity
-            RaycastHit[] hitResults = Physics.SphereCastAll(transform.position + transform.forward * 1f, radius, transform.forward, distance);
+            RaycastHit[] hitResults = Physics.SphereCastAll(transform.position + transform.forward, radius, transform.forward, distance);
 
             if (hitResults != null && hitResults.Length > 0)
             {
