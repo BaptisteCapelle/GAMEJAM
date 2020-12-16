@@ -901,9 +901,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radius: 1
-  distance: 0.4
+  distance: 0.1
   targetTag: Finish
-  power: 1000
+  power: 750
   radiusExplosion: 0.5
 --- !u!114 &2932809951099785237
 MonoBehaviour:
