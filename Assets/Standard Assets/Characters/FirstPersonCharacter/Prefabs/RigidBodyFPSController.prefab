@@ -848,10 +848,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3151318463083542865}
-  - component: {fileID: 744723243363111171}
   - component: {fileID: 5355623196413192975}
+  - component: {fileID: 281361937652009985}
+  - component: {fileID: 2932809951099785237}
   m_Layer: 0
-  m_Name: Taper
+  m_Name: Actions
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -864,29 +865,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4623697754078197664}
-  m_LocalRotation: {x: -0, y: -0.70710886, z: -0, w: 0.70710474}
-  m_LocalPosition: {x: 0.14292209, y: -0.16082954, z: 0.21698487}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.107, y: -0.16082954, z: -1.134}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 400000}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &744723243363111171
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4623697754078197664}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40905459491bbee4a8454603fb8325ec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  radius: 0.6
-  radiusExplosion: 1
-  distance: 1.5
-  power: 100
 --- !u!54 &5355623196413192975
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -903,6 +888,38 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &281361937652009985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4623697754078197664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4c2c1df97be9f44cbc2ea380a165469, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radius: 1
+  distance: 0.4
+  targetTag: Finish
+  power: 1000
+  radiusExplosion: 0.5
+--- !u!114 &2932809951099785237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4623697754078197664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a41d80892dbf3f94e9840718fb87eb15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radius: 0.6
+  distance: 1.5
+  targetTag: wall
 --- !u!1 &5099792780333710442
 GameObject:
   m_ObjectHideFlags: 0

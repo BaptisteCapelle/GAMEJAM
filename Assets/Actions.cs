@@ -2,41 +2,40 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class taper : MonoBehaviour
+public abstract class Actions : MonoBehaviour
 {
     [SerializeField]
     float radius = 1f;
     [SerializeField]
-    float radiusExplosion = 1f;
-    
+    float distance = 0.4f;
     [SerializeField]
-    float distance = 10f;
-    [SerializeField]
-    public float power = 10.0F;
+    string targetTag;
+
 
     private void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (GetActionKey()) //if Input.GetMouseButtonDown(0);
         {
             //(Vector3 origin, float radius, Vector3 direction, out RaycastHit hitInfo, float maxDistance = Mathf.Infinity
             RaycastHit[] hitResults = Physics.SphereCastAll(transform.position + transform.forward, radius, transform.forward, distance);
 
             if (hitResults != null && hitResults.Length > 0)
             {
-
                 foreach (RaycastHit resultat in hitResults)
                 {
-                
-                    if (resultat.transform.gameObject.CompareTag("Finish"))
+                    if (resultat.transform.gameObject.CompareTag(targetTag))
                     {
-                        Debug.Log(resultat.transform.name);
-                        resultat.rigidbody.AddExplosionForce(power, resultat.point, radiusExplosion, 3.0F);
-                        //resultat.rigidbody 
+                        ExecuteAction(resultat);
                     }
                 }
             }
         }
     }
+    //private
+    //protected
+    //public
+    protected abstract bool GetActionKey();
+    protected abstract void ExecuteAction(RaycastHit resultat);
 
 }
 
