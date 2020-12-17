@@ -8,10 +8,14 @@ public class ActionTaper : Actions
     public float power = 10.0F;
     [SerializeField]
     float radiusExplosion = 1f;
+    [SerializeField]
+    Animation anim1;
+
     protected override bool GetActionKey()
     {
         if(Input.GetMouseButtonDown(0) == true)
         {
+            anim1.Play();
             return true;
         }
         else
