@@ -15,6 +15,7 @@ public class ActionTaper : Actions
     {
         if(Input.GetMouseButtonDown(0) == true)
         {
+            anim1.Stop();
             anim1.Play();
             return true;
         }
