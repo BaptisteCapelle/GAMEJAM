@@ -769,6 +769,7 @@ GameObject:
   - component: {fileID: 4647230511630711955}
   - component: {fileID: 6649021196977109663}
   - component: {fileID: 4222610948586306487}
+  - component: {fileID: 5892138600493637377}
   m_Layer: 0
   m_Name: texte
   m_TagString: Untagged
@@ -784,7 +785,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2896984024714194217}
   m_LocalRotation: {x: 0.012391558, y: -0, z: 4.656613e-10, w: 0.9999232}
-  m_LocalPosition: {x: 0.14292209, y: 16.25, z: 0.21698487}
+  m_LocalPosition: {x: -51.4, y: 16.25, z: 0.21698487}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 400000}
@@ -808,7 +809,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10100, guid: 0000000000000000e000000000000000, type: 0}
+  - {fileID: 2100000, guid: 30d1b347382ec594ea89aa939892ac95, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -837,20 +838,37 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2896984024714194217}
-  m_Text: "Tu es un chat, joues ton r\xF4le.\nMIAOU !!"
-  m_OffsetZ: 28.47
+  m_Text: "Vous \xEAtes un chat et votre ma\xEEtre vous a laissez seul dans la maison.\r\nLibre
+    \xE0 vous de faire ce que vous voulez, miauler, griffer ou tout faire tomber.\r\nLors
+    de votre balade dans la maison vous trouvez des photos de vous. \r\nVous ne pouvez
+    pas vous emp\xEAchez de vouloir toutes les r\xE9cup\xE9rer pour satisfaire votre
+    ego.\n"
+  m_OffsetZ: 27.68
   m_CharacterSize: 1
   m_LineSpacing: 1
   m_Anchor: 0
-  m_Alignment: 0
+  m_Alignment: 1
   m_TabSize: 4
   m_FontSize: 0
   m_FontStyle: 0
   m_RichText: 1
-  m_Font: {fileID: 0}
+  m_Font: {fileID: 12800000, guid: 30d1b347382ec594ea89aa939892ac95, type: 3}
   m_Color:
     serializedVersion: 2
-    rgba: 4278190335
+    rgba: 4294967295
+--- !u!114 &5892138600493637377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2896984024714194217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f1eafcde1435814d857e40f9eb44c82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lifetime: 3
 --- !u!1 &3069017115471419544
 GameObject:
   m_ObjectHideFlags: 0
@@ -1062,6 +1080,7 @@ MonoBehaviour:
   power: 1000
   radiusExplosion: 1
   anim1: {fileID: 809901398}
+  toc: {fileID: 0}
 --- !u!114 &2932809951099785237
 MonoBehaviour:
   m_ObjectHideFlags: 0

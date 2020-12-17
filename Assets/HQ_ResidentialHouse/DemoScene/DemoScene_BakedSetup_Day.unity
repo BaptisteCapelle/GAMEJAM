@@ -32311,6 +32311,40 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4222610948586306487, guid: c6453f8e1f814744d8b94e5a6d1f9942,
+        type: 3}
+      propertyPath: m_Text
+      value: "Vous \xEAtes un chat et votre ma\xEEtre vous a laissez seul dans la
+        maison.\r\nLibre \xE0 vous de faire ce que vous voulez, miauler, griffer
+        ou tout faire tomber.\r\nLors de votre balade dans la maison vous trouvez
+        des photos de vous. \r\nVous ne pouvez pas vous emp\xEAchez de vouloir toutes
+        les r\xE9cup\xE9rer pour satisfaire votre ego."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4222610948586306487, guid: c6453f8e1f814744d8b94e5a6d1f9942,
+        type: 3}
+      propertyPath: m_Color.rgba
+      value: 4278453436
+      objectReference: {fileID: 0}
+    - target: {fileID: 4647230511630711955, guid: c6453f8e1f814744d8b94e5a6d1f9942,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -35
+      objectReference: {fileID: 0}
+    - target: {fileID: 4647230511630711955, guid: c6453f8e1f814744d8b94e5a6d1f9942,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 9.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4647230511630711955, guid: c6453f8e1f814744d8b94e5a6d1f9942,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4647230511630711955, guid: c6453f8e1f814744d8b94e5a6d1f9942,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.98
+      objectReference: {fileID: 0}
     - target: {fileID: 4813683324168109627, guid: c6453f8e1f814744d8b94e5a6d1f9942,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -32336,6 +32370,11 @@ PrefabInstance:
       propertyPath: coindAudio
       value: 
       objectReference: {fileID: 8300000, guid: ad1a365398900ec408afde17f47c3fd1, type: 3}
+    - target: {fileID: 5892138600493637377, guid: c6453f8e1f814744d8b94e5a6d1f9942,
+        type: 3}
+      propertyPath: lifetime
+      value: 13
+      objectReference: {fileID: 0}
     - target: {fileID: 6260267062825752149, guid: c6453f8e1f814744d8b94e5a6d1f9942,
         type: 3}
       propertyPath: m_Enabled
