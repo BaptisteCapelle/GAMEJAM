@@ -5,6 +5,10 @@ using UnityEngine;
 public class Objectif : Actions
 {
     public AudioClip cadre;
+    [SerializeField]
+    public TextMesh textfin;
+
+    public float lifetime = 8;
     protected override void ExecuteAction(RaycastHit resultat)
     {
         Debug.Log(resultat.transform.name);
@@ -14,7 +18,18 @@ public class Objectif : Actions
 
         if (objectif5 == 5)
         {
-            Debug.Log("GAGNE");
+            textfin.gameObject.SetActive(true);
+
+            StartCoroutine(LateCall());
+        }
+
+        IEnumerator LateCall()
+        {
+
+            yield return new WaitForSeconds(lifetime);
+
+            textfin.gameObject.SetActive(false);
+            //Do Function here...
         }
 
     }
