@@ -1077,8 +1077,10 @@ MonoBehaviour:
   radius: 0.6
   distance: 1.5
   targetTag: wall
+  anim2: {fileID: 647032341}
   prefabGriffure: {fileID: 4795772455695373482, guid: 6db0b8ae632e16f42a036a00c1f6d2e1,
     type: 3}
+  bruitgriffer: {fileID: 8300000, guid: 1232dd38e2640d544b306d607dedac7f, type: 3}
 --- !u!114 &3534129793188650586
 MonoBehaviour:
   m_ObjectHideFlags: 0

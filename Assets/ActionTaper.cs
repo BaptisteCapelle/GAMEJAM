@@ -10,11 +10,13 @@ public class ActionTaper : Actions
     float radiusExplosion = 1f;
     [SerializeField]
     Animation anim1;
+    public AudioClip toc;
 
     protected override bool GetActionKey()
     {
         if(Input.GetMouseButtonDown(0) == true)
         {
+            AudioSource.PlayClipAtPoint(toc, gameObject.transform.position);
             anim1.Stop();
             anim1.Play();
             return true;
