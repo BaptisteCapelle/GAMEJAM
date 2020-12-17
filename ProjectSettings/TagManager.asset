@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Glass
   - wall
+  - objo
   layers:
   - Default
   - TransparentFX
