@@ -32314,11 +32314,10 @@ PrefabInstance:
     - target: {fileID: 4222610948586306487, guid: c6453f8e1f814744d8b94e5a6d1f9942,
         type: 3}
       propertyPath: m_Text
-      value: "Vous \xEAtes un chat et votre ma\xEEtre vous a laissez seul dans la
-        maison.\r\nLibre \xE0 vous de faire ce que vous voulez, miauler, griffer
-        ou tout faire tomber.\r\nLors de votre balade dans la maison vous trouvez
-        des photos de vous. \r\nVous ne pouvez pas vous emp\xEAchez de vouloir toutes
-        les r\xE9cup\xE9rer pour satisfaire votre ego."
+      value: "You're a cat.\n\nYou are free to do whatever you want. \n\nYou can
+        meow, scratch the walls, drop everything on the floor.\n\nWhile you visiting
+        the house, you find photos of you.\n\nYou have an oversized ego, so you want
+        to find them all."
       objectReference: {fileID: 0}
     - target: {fileID: 4222610948586306487, guid: c6453f8e1f814744d8b94e5a6d1f9942,
         type: 3}
@@ -32328,22 +32327,22 @@ PrefabInstance:
     - target: {fileID: 4647230511630711955, guid: c6453f8e1f814744d8b94e5a6d1f9942,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -35
+      value: -24.22
       objectReference: {fileID: 0}
     - target: {fileID: 4647230511630711955, guid: c6453f8e1f814744d8b94e5a6d1f9942,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 9.7
+      value: 15.3
       objectReference: {fileID: 0}
     - target: {fileID: 4647230511630711955, guid: c6453f8e1f814744d8b94e5a6d1f9942,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.2
+      value: 1.37
       objectReference: {fileID: 0}
     - target: {fileID: 4647230511630711955, guid: c6453f8e1f814744d8b94e5a6d1f9942,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.98
+      value: 1.68
       objectReference: {fileID: 0}
     - target: {fileID: 4813683324168109627, guid: c6453f8e1f814744d8b94e5a6d1f9942,
         type: 3}
