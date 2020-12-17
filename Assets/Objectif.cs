@@ -12,7 +12,7 @@ public class Objectif : Actions
         resultat.rigidbody.gameObject.SetActive(false);
         objectif5 = objectif5 + 1;
 
-        if (objectif5 == 7)
+        if (objectif5 == 5)
         {
             Debug.Log("GAGNE");
         }

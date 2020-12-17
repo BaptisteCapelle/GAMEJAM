@@ -4,14 +4,17 @@ using UnityEngine;
 
 public class ActionGriffer : Actions
 {
+    [SerializeField]
+    GameObject prefabGriffure;
     protected override void ExecuteAction(RaycastHit resultat)
     {
         Debug.Log(resultat.transform.name);
+        Instantiate(prefabGriffure, resultat.point, Quaternion.LookRotation(resultat.normal, Vector3.up));
     }
 
     protected override bool GetActionKey()
     {
-        if (Input.GetKeyDown(KeyCode.X) == true)
+        if (Input.GetMouseButtonDown(1) == true)
         {
             return true;
         }
