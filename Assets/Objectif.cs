@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Objectif : Actions
 {
+    [SerializeField]
+    public AudioClip happy;
+    
     public AudioClip cadre;
     [SerializeField]
     public TextMesh textfin;
@@ -19,7 +22,7 @@ public class Objectif : Actions
         if (objectif5 == 5)
         {
             textfin.gameObject.SetActive(true);
-
+            AudioSource.PlayClipAtPoint(happy, gameObject.transform.position);
             StartCoroutine(LateCall());
         }
 
